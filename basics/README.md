@@ -1,0 +1,1 @@
+Hi! This script executes the pwd command which shows your current working directory!
