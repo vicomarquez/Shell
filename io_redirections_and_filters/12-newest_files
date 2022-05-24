@@ -1,2 +1,2 @@
 #!/bin/bash
-print -lr -- **/*(om[1.10])
+print -lr -- **/*(om[1,10])
