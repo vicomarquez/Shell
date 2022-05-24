@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "hello","how","are","you" | sort | uniq -c 
+ sort list
