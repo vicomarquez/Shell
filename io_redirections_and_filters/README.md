@@ -1,0 +1,1 @@
+Hi! Here you will find information about I/O redirection and Special Characters :)
