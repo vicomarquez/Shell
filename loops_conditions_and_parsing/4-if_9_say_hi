@@ -8,5 +8,5 @@ echo "Hi"
 	else 
 	echo "Best School"
         fi  
-        a=$((i + 1 ))
+        a=$(( a	+ 1 ))
 done
