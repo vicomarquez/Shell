@@ -6,7 +6,7 @@ echo "$proc" > /var/run/my_process.pid
 echo "manage_my_process started"
 }
 stop() { 
-pid=$( cat /var/run/myprocess.pid )
+pid=$( cat /var/run/my_process.pid )
 kill -9 "$pid"
 rm /var/run/my_process.pid
 echo "manage_my_process stopped"
