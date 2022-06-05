@@ -9,7 +9,7 @@ do
        m=1
        while [ $m -le 59 ] ;
        do
-	       echo $b
+	       echo $m
 	       m=$(( m + 1 ))
        done 
        h=$(( h + 1 ))
