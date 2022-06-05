@@ -1,29 +1,29 @@
 #!/usr/bin/env bash
 #HI#
-
-if [[ -f $school ]] ; 
+filename=school
+if [[ -f $filename ]] ; 
 then
-echo "${school} file exists"
+echo "${filename} file exists"
 
-if [[ -s $school ]] ;
+if [[ -s $filename ]] ;
 then
-	echo "${school} file is not empty"
+	echo "${filename} file is not empty"
 else 
-	echo "${school} file is empty"
+	echo "${filename} file is empty"
 fi
-echo "${school} is a regular file"
+echo "${filename} is a regular file"
 
 else 
-	if  [[ -d $school ]] ; 
+	if  [[ -d $filename ]] ; 
 	then
-		echo "${school} file exists"
-		if [ "$(ls -A $school)" ] ;
+		echo "${filename} file exists"
+		if [ "$(ls -A $filename)" ] ;
 		then
-		echo "${school} file is empty"
+		echo "${filename} file is empty"
 	else 	
-		echo "${school} file is not empty"
+		echo "${filename} file is not empty"
 		fi
 	else
-		echo "${school} file does not exist"
+		echo "${filename} file does not exist"
 	fi
 fi
