@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#HI#
+for a in * ; 
+do
+	echo  "$a" |
+		rev |
+		cut -d "-" -f 1 |
+		rev
+done
