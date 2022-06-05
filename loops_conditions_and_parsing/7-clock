@@ -4,12 +4,12 @@
 a=$(( 0 ))
 while [ $a -le 12 ] ;
 do
-       echo "hour ${a}"
+       echo "hour: ${a}"
 
        b=1
        while [ $b -le 59 ] ;
        do
-	       echo "minute ${b}"
+	       echo $b
 	       b=$(( b + 1 ))
        done 
        a=$(( a + 1 ))
