@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 #This sript dsplays numbers from 1 to 20#
 
-a=$(( 0 ))
-while [ $a -le 12 ] ;
+h=$(( 0 ))
+while [ $h -le 12 ] ;
 do
-       echo "hour: ${a}"
+       echo "hour: ${h}"
 
-       b=1
-       while [ $b -le 59 ] ;
+       m=1
+       while [ $m -le 59 ] ;
        do
 	       echo $b
-	       b=$(( b + 1 ))
+	       m=$(( m + 1 ))
        done 
-       a=$(( a + 1 ))
+       h=$(( h + 1 ))
 done
